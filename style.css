@@ -17,12 +17,12 @@ body {
     margin: 0 1rem;
 }
 
-.container {
+section {
     max-width: 350px;
     margin: 0;
 }
 
-.box {
+article.box {
     background-color: white;
     border-radius: 20px;
     padding: 2rem;
@@ -45,6 +45,21 @@ body {
 .text p {
     color: #7b879d;
     padding-bottom: 5px;
+}
+
+#link{
+    text-decoration: none;
+    font-family: ubuntu, Arial, Helvetica, sans-serif;
+    color: cornflowerblue;
+    border-left: 4px;
+    transition: .4s;
+}
+#link:hover{
+    padding-left: 30px;
+    border-left: 4px solid blueviolet;
+    padding-right: 30px;
+    border-right: 4px solid blueviolet;
+    color: blueviolet;
 }
 
 
